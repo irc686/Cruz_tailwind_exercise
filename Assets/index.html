@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-
+<link href="Assets/styles/custom.css" rel="stylesheet">
 	<title>Cruz Tailwind Exercise</title>
 </head>
 <body>
@@ -15,6 +15,11 @@
     <a class="font-semibold text-xl tracking-tight">Irene Cruz</a>
   </div>
  
+ <form>
+			<label class="sr-only" for="search-form"></label>
+			<input class="border border-black p-2 my-4 lg:my-0 lg:w-64 rounded w-full" id = "search-form" placeholder="Search" type="search">
+			<button class="sr-only">Search</button>
+		</form>
   
   <div class="w-full block flex justify-end lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow">
